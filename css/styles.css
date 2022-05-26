@@ -1,0 +1,539 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'copse';
+}
+
+@font-face {
+    font-family: 'copse';
+    src: url(../Fonts/Copse-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'yantraman';
+    src: url(../Fonts/yantramanav-regular.otf);
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    background-color: #212e69;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+
+header img {
+    max-width: 30%;
+}
+
+nav {
+    background-color: #212e69;
+    text-decoration: none;
+    font-size: 80%;
+
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-decoration: none;
+    padding: 1%;
+    text-align: center;
+
+}
+
+ul li a {
+    text-decoration: none;
+    border: none;
+    font-weight: normal;
+    font-size: 100%;
+
+}
+
+ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+
+}
+.imginicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.imgprofesional {
+    max-width: 70%;
+    border-radius: 10px;
+    
+  
+}
+
+h2 {
+    color: #228cdb;
+    background-color: #f3c624;
+    font-size: 30px;
+    text-align: center;
+}
+
+div .resumen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    margin: 3%;
+}
+
+.resumen span img {
+    max-width: 30%;
+    border: #228bdb62 solid;
+    border-radius: 10px;
+
+}
+
+p {
+    padding: 0 3%;
+}
+
+.texto1 {
+    text-align: justify;
+
+}
+
+img {
+    width: 100%;
+
+}
+
+span img {
+
+    margin: 3% 2% 3% 35%;
+}
+
+.segundasecc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+    padding-top: 2%;
+    padding-bottom: 8%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+a {
+    text-decoration: none;
+    color: #212e69;
+    text-align: center;
+    position: relative;
+    border: #228bdb62 solid;
+    border-radius: 10px;
+    font-size: 130%;
+    font-weight: bolder;
+}
+
+a div {
+    position: absolute;
+    bottom: 1%;
+    text-align: center;
+    padding: 0;
+    background-color: #f3c6246d;
+    font-size: 80%;
+    width: 100%;
+}
+
+.imgfooter {
+    max-width: 30px;
+}
+
+footer {
+    background-color: #212e69;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menufooter li {
+    display: inline;
+    padding: 4%;
+    text-align: center;
+
+}
+
+.imgcarreras2 {
+    width: 200px;
+    margin-left: 30%;
+}
+
+.imgdiseño {
+    width: 0%;
+}
+
+.imgteam {
+    width: 50%;
+
+}
+
+.quienessomos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.campus {
+    padding-top: 10%;
+}
+
+.pdeperiodismo {
+    border: none;
+    background-color: #f3c62449;
+    border-radius: 0;
+    font-size: 100%;
+    padding: 2%;
+
+}
+
+.pde {
+    border: none;
+    background-color: #f3c62449;
+    border-radius: 0;
+    font-size: 100%;
+    padding: 2%;
+}
+
+.textocarreras {
+    text-align: justify;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+.spanimg {
+    width: 100%;
+
+}
+
+.contenidocarreras {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    ;
+}
+
+
+.textoquienessomos {
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+
+.imglogin {
+    padding: 2%;
+    margin-left: 35%;
+    width: 30%;
+    border-radius: 3px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.novedades {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.labelscontacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #f3c62431;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 130%;
+    text-align: center;
+    margin-bottom: 40%;
+}
+
+
+input {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-family: 'copse';
+    border-color: #4d9ee097;
+    padding: 10px;
+    width: 250px;
+
+}
+
+.boton {
+    background-color: #4d9de0;
+    font-family: 'copse';
+    color: white;
+    width: 130px;
+    height: 50px;
+    font-size: 120%;
+    text-align: center;
+
+}
+
+.field {
+    border-color: #f3c62463;
+}
+
+.formulario {
+    font-family: 'copse';
+    font-size: 110%;
+    margin: 0 auto;
+    width: 350px;
+    background-color: #f3c62431;
+    text-align: left;
+    padding: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 3px
+}
+
+.labels {
+    width: 200px;
+    color: #212E69;
+    margin-bottom: 30%;
+    padding: 3%;
+    margin-top: 30%;
+}
+
+.fieldcontacto {
+    width: 300px;
+    font-family: 'copse';
+    font-size: 100%;
+    margin: 2%;
+    border-radius: 3px
+}
+
+.menu2 {
+    margin: 2%;
+    border-radius: 3px
+}
+
+.caja {
+    width: 300px;
+    height: px;
+    font-family: 'copse';
+    font-size: 100%;
+    margin: 2%;
+    border-radius: 3px;
+}
+
+
+.botoncontacto {
+    background-color: #4d9de0;
+    color: white;
+    font-family: 'copse';
+    width: 150px;
+    text-align: center;
+    margin: 2%;
+    font-size: 110%;
+    border-radius: 3px;
+}
+
+.areaboton {
+    text-align: justify;
+}
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+    ul li a {
+        font-size: 120%;
+    }
+
+    .resumen span img {
+        max-width: 70%;
+        border: #228bdb62 solid;
+        border-radius: 10px;
+
+    }
+
+    .resumen {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+    .segundasecc {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2%;
+        padding-top: 2%;
+        padding-bottom: 8%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .imgprofesional {
+        width: 100%;
+    }
+
+    .resumen {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .imgmetodologia {
+        margin-left: 18%;
+    }
+
+    .contenidocarreras {
+        display: grid;
+        grid-template-columns: 50% 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenidoinvertido {
+        display: grid;
+        grid-template-columns: 1fr 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textocarreras {
+        grid-column: 1/2;
+        grid-row: 3;
+        padding-top: 2%;
+    }
+
+    .textoinvertido {
+        grid-column: 2/3;
+        padding-top: 2%;
+        grid-row: 1;
+    }
+
+    .imgcarrerasinvertida {
+        grid-column: 1;
+        grid-row: 1;
+        align-self: flex-start;
+        width: 200px;
+        margin-left: 30%;
+    }
+
+    .titulocarrera {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .imgcarreras2 {
+        grid-column: 2/3;
+        grid-row: 3;
+        align-self: flex-start;
+    }
+
+    .pdeinvertido {
+        grid-column: 1;
+        grid-row: 1;
+
+    }
+
+    .contador {
+        padding-top: 3%;
+    }
+
+    h4 {
+        grid-row: 3;
+        grid-column: 2/3;
+        align-self: flex-end;
+        padding-bottom: 10%;
+        justify-self: last baseline;
+    }
+
+    .periodismo {
+
+        /* padding-top: 3%; */
+        grid-row: 1/2;
+    }
+
+    .rrhh {
+        padding-top: 5%;
+    }
+
+    .psicologia {
+        padding-top: 5%;
+    }
+
+    .pdeperiodismo {
+        align-self: flex-end;
+        border: none;
+        background-color: #f3c62449;
+        border-radius: 0;
+        font-size: 100%;
+        padding: 2%;
+        margin-top: 3%;
+        grid-row: 1/2;
+
+    }
+
+    .textoperiodismo {
+        grid-row: 1/2;
+    }
+
+    h4 a {
+        grid-area: pde;
+        align-items: baseline;
+    }
+
+    p {
+        grid-area: textocarreras;
+        justify-content: center;
+    }
+
+    h2 {
+        grid-area: titulocarrera;
+        ;
+    }
+
+    .imgfooter {
+        width: 100px;
+    }
+
+    .campus {
+        padding-top: 5%;
+    }
+
+    .formulario {
+        font-family: 'copse';
+        font-size: 110%;
+        margin: 0 auto;
+        width: 400px;
+        background-color: #f3c62431;
+        text-align: left;
+        padding: 20px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        border-radius: 3px
+    }
+
+}
