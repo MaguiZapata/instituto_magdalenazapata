@@ -55,6 +55,7 @@ ul li a {
     border: none;
     font-weight: normal;
     font-size: 100%;
+    
 
 }
 
@@ -64,17 +65,26 @@ ul li a {
     color: white;
 
 }
-.imginicio{
+
+.imginicio {
     display: flex;
     flex-direction: row;
     justify-content: center;
-   
+
 }
+
 .imgprofesional {
     max-width: 70%;
     border-radius: 10px;
-    
-  
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+
+}
+
+.animacion_heartBeat {
+    animation: heartBeat;
+    animation-duration: 5s
 }
 
 h2 {
