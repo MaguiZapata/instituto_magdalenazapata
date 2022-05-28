@@ -7,12 +7,12 @@
 
 @font-face {
     font-family: 'copse';
-    src: url(../Fonts/Copse-Regular.ttf);
+    src: url(../fonts/Copse-Regular.ttf);
 }
 
 @font-face {
     font-family: 'yantraman';
-    src: url(../Fonts/yantramanav-regular.otf);
+    src: url(../fonts/yantramanav-regular.otf);
 }
 
 body {
