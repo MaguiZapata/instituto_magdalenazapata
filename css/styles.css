@@ -20,25 +20,30 @@ header {
     max-width: 20%;
 }
 
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
 .bc-menu {
-    background-color: #4d9ee06a;
+    background-color: #212e69;
     padding-left: 5%;
+    transition: background-color .5s;
     
 }
 
 .nav {
    
-    align-items: center;
-    
-    
+    align-items: center;   
 
 }
 
 .nav-link {
     font-weight: normal;
     font-size: medium;
-    
-    
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #228cdb;
 }
 .nombrecarrera{
     background-color:#f3c6246d ;
@@ -53,6 +58,8 @@ h2 {
     background-color: #f3c6248a;
     font-size: 30px;
     text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
 
 }
 .pdecarrera{
@@ -157,13 +164,20 @@ footer {
     max-width: 25px;
 }
 
-
-
+.h2_centrados{
+    text-align: center;
+}
+.img_nav{
+    width: 20%;
+    vertical-align: middle;
+}
 .imgcarrerasinvertida{
     width: 200px;
     margin-left: 30%;
 }
-
+h2 .ofertas{
+    text-align: center;
+}
 .pde {
     border: none;
     background-color: #f3c62449;
@@ -321,7 +335,9 @@ input {
         display: flex;
         flex-direction: rox;
     }
-
+a div p {
+    font-size: 100%;
+}
     .imgmetodologia {
         width: 50%;
     }
