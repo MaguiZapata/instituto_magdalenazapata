@@ -1,0 +1,355 @@
+@font-face {
+    font-family: 'copse';
+    src: url(../fonts/Copse-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'yantraman';
+    src: url(../fonts/yantramanav-regular.otf);
+}
+
+body {
+    font-family: copse;
+}
+
+header {
+    background-color: #212e69;
+}
+
+.imglogo {
+    max-width: 20%;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.bc-menu {
+    background-color: #212e69;
+    padding-left: 5%;
+    transition: background-color .5s;
+    
+}
+
+.nav {
+   
+    align-items: center;   
+
+}
+
+.nav-link {
+    font-weight: normal;
+    font-size: medium;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #228cdb;
+}
+.nombrecarrera{
+    background-color:#f3c6246d ;
+}
+.imginicio {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+h2 {
+    color: #228cdb;
+    background-color: #f3c6248a;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+.pdecarrera{
+    font-size: 90%;
+    text-decoration: none;
+    color: #212e69;
+    background-color:#f3c6246d ;
+}
+.animate__fadeIn {
+    animation: hfadeIn;
+    animation-duration: 10s
+}
+
+.imgmetodologia {
+    width: 50%;
+}
+
+span .imgmetodologia {
+    margin: 3% 2% 3% 25%;
+}
+
+.texto1 {
+    text-align: justify;
+}
+
+a .carreras {
+    text-decoration: none;
+    color: #212e69;
+    text-align: center;
+
+    border: #228bdb62 solid;
+    border-radius: 10px;
+    font-size: 130%;
+    font-weight: bolder;
+
+
+}
+
+a .carreras {
+
+    text-align: center;
+    padding: 0;
+    background-color: #f3c6246d;
+    font-size: 80%;
+    ;
+
+
+}
+
+a div{
+    text-decoration: none;
+    color: #212e69c8;
+    text-align: center;
+    position: relative;
+
+    font-size: 130%;
+    font-weight: bolder;
+    margin: 1%;
+
+}
+
+.imgcarreras {
+    width: 100%;
+    border: #228bdb62 solid;
+    border-radius: 10px;
+    font-size: 130%;
+    font-weight: bolder;
+    margin-bottom: 2%;
+    animation-delay: 0.5s;
+
+
+
+}
+
+a div p{
+    position: absolute;
+    bottom: 1%;
+    text-align: left;
+    padding: 0;
+    background-color: #f3c62474;
+    font-size: 60%;
+    width: 100%;
+
+}
+.titulo-carrera{
+    padding-left: 5%;
+}
+
+.segundasecc {
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+
+}
+
+footer {
+    background-color: #228bdb62;
+
+}
+
+.imgfooter {
+    max-width: 25px;
+}
+
+
+.h2_centrados{
+    text-align: center;
+}
+.img_nav{
+    width: 20%;
+    vertical-align: middle;
+}
+.imgcarrerasinvertida{
+    width: 200px;
+    margin-left: 30%;
+}
+h2 .ofertas{
+    text-align: center;
+}
+.pde {
+    border: none;
+    background-color: #f3c62449;
+    border-radius: 0;
+    font-size: 80%;
+    padding: 2%;
+    color: #228cdb;
+    margin-left: 50%;
+}
+
+.imgcarreras2 {
+    width: 200px;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+.imgcarrerasinvertida{
+    width: 200px;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+.textocarreras {
+    text-align: justify;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+.contenedor_index{
+    padding-right: 20%;
+}
+
+.imgteam{
+    width: 30%;
+}
+.centrarimgteam{
+    text-align: center;
+}
+.textoquienessomos {
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+.formulario {
+    font-family: 'copse';
+    font-size: 110%;
+    margin: 0 auto;
+    width: 400px;
+    background-color: #f3c62431;
+    text-align: left;
+    padding: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 3px
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #f3c62431;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 130%;
+    text-align: center;
+    margin-bottom: 40%;
+}
+.imglogin {
+    padding: 2%;
+    margin-left: 35%;
+    width: 30%;
+    border-radius: 3px;
+}
+
+.boton {
+    background-color: #4d9de0;
+    font-family: 'copse';
+    color: white;
+    width: 130px;
+    height: 50px;
+    font-size: 120%;
+    text-align: center;
+
+}
+.areaboton {
+    text-align: justify;
+}
+.botoncontacto {
+    background-color: #4d9de0;
+    color: white;
+    font-family: 'copse';
+    width: 150px;
+    text-align: center;
+    margin: 2%;
+    font-size: 110%;
+    border-radius: 3px;
+}
+.labelscontacto {
+    display: flex;
+    flex-direction: column;
+    border-color: #f3c62463
+}
+.fieldcontacto {
+    width: 300px;
+    font-family: 'copse';
+    font-size: 100%;
+    margin: 2%;
+    border-radius: 3px;
+    border-color: #f3c62463
+}
+
+.caja {
+    width: 300px;
+    height: px;
+    font-family: 'copse';
+    font-size: 100%;
+    margin: 2%;
+    border-radius: 3px;
+    border-color: #f3c62463
+}
+.field {
+    border-color: #f3c62463;
+}
+input {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-family: 'copse';
+    border-color: #4d9ee097;
+    padding: 10px;
+    width: 250px;
+
+}
+.novedades {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+@media screen and (min-width:768px) {
+    .imglogo {
+        max-width: 10%;
+    }
+    .nav-link {
+        
+        font-size: 120%;
+        
+        
+    }
+    .metodologia {
+        display: flex;
+        flex-direction: rox;
+    }
+a div p {
+    font-size: 100%;
+}
+    .imgmetodologia {
+        width: 50%;
+    }
+
+    .texto1 {
+        justify-content: center;
+        align-self: center;
+        width: 50%;
+    }
+    .imgcarreras2{
+        width: 60%;
+       
+    }
+}
