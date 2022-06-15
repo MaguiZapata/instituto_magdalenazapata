@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: map-get(colores, $color-headeryfooter)
+    background-color: map-get($colores, color-headeryfooter)
 }
 
 .imglogo {
@@ -19,7 +19,7 @@ header {
 }
 
 .bc-menu {
-    background-color: map-get(colores, $color-headeryfooter);
+    background-color: map-get($colores, color-headeryfooter);
     padding-left: 5%;
     transition: background-color .5s;
 
@@ -27,12 +27,12 @@ header {
 
 .navbar-light .navbar-nav .nav-link {
     //uso map-get
-    color: map-get($colores, $color-textos-nav);
+    color: map-get($colores, color-textos-nav);
 }
 
 nav {
     div {
-        background-color: map-get(colores, $color-headeryfooter);
+        background-color: map-get($colores, color-headeryfooter);
     }
 }
 
@@ -48,11 +48,11 @@ nav {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: map-get($colores, $color-textos-subtitulos);
+    color: map-get($colores, color-textos-subtitulos);
 }
 
 .nombrecarrera {
-    background-color: map-get($colores, $color-bc);
+    background-color: map-get($colores, color-bc);
 }
 
 .imginicio {
@@ -61,7 +61,7 @@ nav {
 }
 
 h2 {
-    color: map-get($colores, $color-textos-subtitulos);
+    color: map-get($colores, color-textos-subtitulos);
     background-color: $color-bc-subtitulos;
     text-align: center;
     padding-top: 1%;
@@ -72,7 +72,7 @@ h2 {
 .pdecarrera {
     font-size: 90%;
     text-decoration: none;
-    color: map-get($colores, $color-headeryfooter);
+    color: map-get($colores, color-headeryfooter);
     background-color: $color-bc-subtitulos;
 }
 
@@ -103,7 +103,7 @@ span {
 a {
     .carreras {
         text-decoration: none;
-        color: map-get($colores, $color-headeryfooter);
+        color: map-get($colores, color-headeryfooter);
         text-align: center;
 
         border: #228bdb62 solid;
@@ -121,7 +121,7 @@ a {
     //uso mixins
     div {
         text-decoration: none;
-        color: map-get($colores, $color-headeryfooter);
+        color: map-get($colores, color-headeryfooter);
         text-align: center;
         position: relative;
         @include fuentes(130%, bolder);
@@ -141,6 +141,7 @@ a {
 
 a {
     div {
+
         //uso mixins
         p {
             position: absolute;
@@ -149,8 +150,8 @@ a {
             padding: 0;
             background-color: $color-bc-subtitulos;
             width: 100%;
-            @include fuentes (60%,normail);
-            
+            @include fuentes (60%, normail);
+
         }
     }
 }
@@ -199,14 +200,22 @@ h2 {
     }
 }
 
+a .pde {
+    border-radius: 3px;
+    box-shadow: #228bdb7f;
+
+}
+
 .pde {
-    border: none;
     background-color: $color-bc-subtitulos;
-    border-radius: 0;
     font-size: 80%;
     padding: 2%;
     color: $color-textos-subtitulos;
     margin-left: 50%;
+    border-radius: 3px;
+    box-shadow: #228bdb7f;
+    padding-left: 23%;
+    
 }
 
 .imgcarreras2 {
@@ -283,7 +292,7 @@ h2 {
 .boton {
     background-color: $color-textos-subtitulos;
     font-family: 'copse';
-    color: map-get($colores, $color-textos-nav);
+    color: map-get($colores, color-textos-nav);
     width: 130px;
     height: 50px;
     font-size: 120%;
@@ -383,5 +392,11 @@ input {
         width: 60%;
 
     }
+    .pde{
+        padding-left: 20%;
+        font-size: 110%;
+        margin-top: 25%;
+    }
+
 
 }

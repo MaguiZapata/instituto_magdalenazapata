@@ -30,14 +30,11 @@ nav div {
   align-items: center; }
 
 .nav-link {
-  font-weight: normal;
-  font-size: medium; }
+  font-size: medium;
+  font-weight: normal; }
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: #228cdb; }
-
-.nombrecarrera {
-  background-color: #f3c6246d; }
 
 .imginicio {
   padding-top: 1%;
@@ -46,10 +43,11 @@ nav div {
 h2 {
   color: #228cdb;
   background-color: #f3c6246d;
-  font-size: 30px;
   text-align: center;
   padding-top: 1%;
-  padding-bottom: 1%; }
+  padding-bottom: 1%;
+  font-size: 30px;
+  font-weight: normal; }
 
 .pdecarrera {
   font-size: 90%;
@@ -80,12 +78,11 @@ a .carreras {
   text-align: center;
   border: #228bdb62 solid;
   border-radius: 10px;
-  font-size: 130%;
-  font-weight: bolder;
   text-align: center;
   padding: 0;
   background-color: #f3c6246d;
-  font-size: 80%; }
+  font-size: 80%;
+  font-weight: bolder; }
 
 a div {
   text-decoration: none;
@@ -97,13 +94,13 @@ a div {
   margin: 1%; }
 
 .imgcarreras {
-  width: 100%;
   border: #228bdb62 solid;
   border-radius: 10px;
-  font-size: 130%;
-  font-weight: bolder;
   margin-bottom: 2%;
-  animation-delay: 0.5s; }
+  animation-delay: 0.5s;
+  width: 100%;
+  font-size: 130%;
+  font-weight: bolder; }
 
 a div p {
   position: absolute;
@@ -111,8 +108,9 @@ a div p {
   text-align: left;
   padding: 0;
   background-color: #f3c6246d;
+  width: 100%;
   font-size: 60%;
-  width: 100%; }
+  font-weight: normail; }
 
 .titulo-carrera {
   padding-left: 5%; }
@@ -145,14 +143,19 @@ footer {
 h2 .ofertas {
   text-align: center; }
 
+a .pde {
+  border-radius: 3px;
+  box-shadow: #228bdb7f; }
+
 .pde {
-  border: none;
   background-color: #f3c6246d;
-  border-radius: 0;
   font-size: 80%;
   padding: 2%;
   color: #228cdb;
-  margin-left: 50%; }
+  margin-left: 50%;
+  border-radius: 3px;
+  box-shadow: #228bdb7f;
+  padding-left: 23%; }
 
 .imgcarreras2 {
   width: 200px;
@@ -214,25 +217,20 @@ h2 .ofertas {
   width: 30%;
   border-radius: 3px; }
 
-.boton {
+.boton, .botoncontacto {
   background-color: #228cdb;
   font-family: 'copse';
   color: white;
   width: 130px;
   height: 50px;
   font-size: 120%;
-  text-align: center; }
+  text-align: center;
+  border-color: #228cdb;
+  border-radius: 3px; }
 
 .botoncontacto {
-  background-color: #228cdb;
-  border-color: #228cdb;
-  color: white;
-  font-family: 'copse';
   width: 150px;
-  text-align: center;
-  margin: 2%;
-  font-size: 110%;
-  border-radius: 3px; }
+  margin: 2%; }
 
 .labelscontacto {
   display: flex;
@@ -288,4 +286,8 @@ input {
     align-self: center;
     width: 50%; }
   .imgcarreras2 {
-    width: 60%; } }
+    width: 60%; }
+  .pde {
+    padding-left: 20%;
+    font-size: 110%;
+    margin-top: 25%; } }
