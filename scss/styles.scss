@@ -215,7 +215,7 @@ a .pde {
     border-radius: 3px;
     box-shadow: #228bdb7f;
     padding-left: 23%;
-    
+
 }
 
 .imgcarreras2 {
@@ -354,9 +354,70 @@ input {
 
 }
 
+div {
+    .tabla {
+        width: 70%;
+    }
+}
+
+nav {
+    ol .breadcrumb {
+        a {
+            text-decoration: none;
+        }
+
+    }
+}
+
+.breadcrumb-item {
+    text-decoration: none
+}
+
+ol {
+    padding-left: 5%;
+    background-color: #228bdb7d;
+
+
+}
+
+ol {
+    a {
+        text-decoration: none;
+        color: #f3c624;
+        @include fuentes (110%, normal);
+
+    }
+}
+
+ol {
+    li {
+        text-decoration: none;
+        color: #f3c624;
+        @include fuentes (110%, normal);
+        padding-left: 5%;
+
+    }
+}
+
+.tabla {
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.negrita{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 @media screen and (min-width:768px) {
     .imglogo {
         max-width: 10%;
+    }
+
+    div {
+        .tabla {
+            width: 70%;
+        }
     }
 
     .nav-link {
@@ -392,11 +453,19 @@ input {
         width: 60%;
 
     }
-    .pde{
+
+    .pde {
         padding-left: 20%;
         font-size: 110%;
         margin-top: 25%;
     }
 
-
+    ol {
+        li {
+            
+            @include fuentes (125%, normal)
+    
+        }
+    }
+    
 }
