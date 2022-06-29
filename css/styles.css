@@ -20,7 +20,7 @@ header {
   padding-left: 5%;
   transition: background-color .5s; }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link {
   color: white; }
 
 nav div {
@@ -33,7 +33,7 @@ nav div {
   font-size: medium;
   font-weight: normal; }
 
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-dark .navbar-nav .nav-link:hover {
   color: #228cdb; }
 
 .imginicio {
@@ -44,10 +44,23 @@ h2 {
   color: #228cdb;
   background-color: #f3c6246d;
   text-align: center;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  /* padding-top: 1%;
+    padding-bottom: 1%; */
   font-size: 30px;
   font-weight: normal; }
+
+.btn-info {
+  font-size: 90%;
+  text-decoration: none;
+  color: #212e69;
+  background-color: #f3c6246d;
+  border-color: #f3c6246d;
+  text-decoration: none; }
+  .btn-info :hover {
+    color: white; }
+
+button a {
+  text-decoration: none; }
 
 .pdecarrera {
   font-size: 90%;
@@ -65,12 +78,18 @@ h2 {
 span .imgmetodologia {
   margin: 3% 2% 3% 25%; }
 
-.texto1 {
+span .texto1 {
+  text-align: justify;
+  margin-left: 3%;
+  margin-right: 5%; }
+
+span .texto1 p {
   text-align: justify; }
 
-.texto1 {
-  padding-left: 1%;
-  padding-right: 1%; }
+.resumen-met {
+  text-align: justify;
+  padding-left: 3%;
+  padding-right: 3%; }
 
 a .carreras {
   text-decoration: none;
@@ -104,16 +123,17 @@ a div {
 
 a div p {
   position: absolute;
-  bottom: 1%;
-  text-align: left;
+  bottom: 10%;
   padding: 0;
-  background-color: #f3c6246d;
+  background-color: #f3c62444;
   width: 100%;
   font-size: 60%;
   font-weight: normail; }
 
 .titulo-carrera {
-  padding-left: 5%; }
+  padding-bottom: 2%;
+  text-align: center;
+  text-shadow: 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white; }
 
 .segundasecc {
   justify-content: center;
@@ -269,8 +289,8 @@ input {
   display: flex;
   flex-direction: row; }
 
-div .tabla {
-  width: 70%; }
+div .table {
+  padding-right: 10%; }
 
 nav ol .breadcrumb a {
   text-decoration: none; }
@@ -303,6 +323,9 @@ ol li {
   font-weight: bold;
   text-decoration: underline; }
 
+table {
+  margin-right: 30%; }
+
 @media screen and (min-width: 768px) {
   .imglogo {
     max-width: 10%; }
@@ -315,18 +338,39 @@ ol li {
     flex-direction: rox; }
   a div p {
     font-size: 100%; }
+  a div p {
+    position: absolute;
+    bottom: 5%;
+    padding: 0;
+    background-color: #f3c62444;
+    width: 100%;
+    font-size: 100%;
+    font-weight: bold; }
   .imgmetodologia {
     width: 50%; }
   .texto1 {
     justify-content: center;
     align-self: center;
     width: 50%; }
+  /* .resumen-met{
+        
+        padding-right: 5%;
+    } */
   .imgcarreras2 {
     width: 60%; }
+  div .img-carreras {
+    padding-left: 10%;
+    padding-right: 10%; }
   .pde {
     padding-left: 20%;
     font-size: 110%;
     margin-top: 25%; }
+  .btn-pde :hover {
+    color: white; }
+  .btn-info {
+    font-size: 110%; }
+    .btn-info :hover {
+      color: white; }
   ol li {
     font-size: 125%;
     font-weight: normal; } }

@@ -25,7 +25,7 @@ header {
 
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link {
     //uso map-get
     color: map-get($colores, color-textos-nav);
 }
@@ -47,9 +47,10 @@ nav {
     @include fuentes (medium, normal)
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-dark .navbar-nav .nav-link:hover {
     color: map-get($colores, color-textos-subtitulos);
 }
+
 
 .nombrecarrera {
     background-color: map-get($colores, color-bc);
@@ -64,11 +65,24 @@ h2 {
     color: map-get($colores, color-textos-subtitulos);
     background-color: $color-bc-subtitulos;
     text-align: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    /* padding-top: 1%;
+    padding-bottom: 1%; */
     @include fuentes (30px, normal);
 }
-
+.btn-info{
+    font-size: 90%;
+    text-decoration: none;
+    color: map-get($colores, color-headeryfooter);
+    background-color: $color-bc-subtitulos;
+    border-color:$color-bc-subtitulos ;
+    text-decoration: none;
+    :hover{color: white}
+}
+button{
+    a{
+        text-decoration: none;
+    }
+}
 .pdecarrera {
     font-size: 90%;
     text-decoration: none;
@@ -91,15 +105,23 @@ span {
     }
 }
 
-.texto1 {
+span .texto1 {
+
     text-align: justify;
+    margin-left: 3%;
+    margin-right: 5%;
 }
 
-.texto1 {
-    padding-left: 1%;
-    padding-right: 1%;
+span .texto1 {
+    p {
+        text-align: justify;
+    }
 }
-
+.resumen-met{
+    text-align: justify;
+    padding-left: 3%;
+    padding-right: 3%;
+}
 a {
     .carreras {
         text-decoration: none;
@@ -145,10 +167,9 @@ a {
         //uso mixins
         p {
             position: absolute;
-            bottom: 1%;
-            text-align: left;
+            bottom: 10%;
             padding: 0;
-            background-color: $color-bc-subtitulos;
+            background-color: #f3c62444;
             width: 100%;
             @include fuentes (60%, normail);
 
@@ -157,7 +178,12 @@ a {
 }
 
 .titulo-carrera {
-    padding-left: 5%;
+    
+    padding-bottom: 2%;
+    text-align: center;
+    text-shadow: 0 0 0.2em white, 0 0 0.2em white,
+    0 0 0.2em white;
+    
 }
 
 .segundasecc {
@@ -355,8 +381,8 @@ input {
 }
 
 div {
-    .tabla {
-        width: 70%;
+    .table {
+        padding-right: 10%;
     }
 }
 
@@ -401,12 +427,17 @@ ol {
 
 .tabla {
     margin-left: 5%;
-    margin-right: 5%;
-
+    margin-right: 5%
 }
-.negrita{
+
+.negrita {
     font-weight: bold;
     text-decoration: underline;
+}
+
+table {
+
+    margin-right: 30%;
 }
 
 @media screen and (min-width:768px) {
@@ -435,10 +466,26 @@ ol {
         div {
             p {
                 font-size: 100%;
+                
             }
         }
     }
-
+    a {
+        div {
+    
+            //uso mixins
+            p {
+                position: absolute;
+                bottom: 5%;
+                padding: 0;
+                background-color: #f3c62444;
+                width: 100%;
+                @include fuentes (100%, bold);
+    
+            }
+        }
+    }
+    
     .imgmetodologia {
         width: 50%;
     }
@@ -448,24 +495,41 @@ ol {
         align-self: center;
         width: 50%;
     }
-
+   
+    /* .resumen-met{
+        
+        padding-right: 5%;
+    } */
     .imgcarreras2 {
         width: 60%;
 
     }
-
+    div .img-carreras{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
     .pde {
         padding-left: 20%;
         font-size: 110%;
         margin-top: 25%;
     }
+    .btn-pde{
+        
+        :hover{
+            color: white;
+
+        }
+    }
+    .btn-info{
+        font-size: 110%;
+        :hover{color: white;}
+    }
 
     ol {
         li {
-            
+
             @include fuentes (125%, normal)
-    
         }
     }
-    
+
 }
